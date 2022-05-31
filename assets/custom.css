@@ -1,0 +1,107 @@
+
+
+
+body {
+  /*overflow: hidden; /* Hide scrollbars */
+  background-color:transparent;
+  overflow-x: hidden;
+}
+
+.main{
+
+
+height:100% ;
+min-height:100vh;
+width:100% ;
+min-width:100vw;
+}
+
+
+
+
+.myimg{
+/*height:calc(60rem + 1vh);*/
+/*width:calc(90rem + 1vw);*/
+}
+
+
+.num{
+  position: absolute;
+  top: 65%;
+  left: 50%;
+
+  transform: translate(-50%, -50%);
+}
+
+
+.info-header{
+/*font-size: clamp(0.9rem, 0.8vw, 7rem);*/
+font-size: calc(0.4rem + 0.4vw);
+}
+
+
+.info-card{
+height:calc(5.5rem + 1vh);
+width:calc(10rem + 1vw);
+}
+
+.charts-card{
+height:calc(19rem + 1vh);
+
+}
+
+.date-fig{
+height:calc(13rem + 1vh);
+
+
+}
+
+.hist-fig{
+height:calc(17rem + 1vh);
+
+
+}
+
+.Select-value-label {
+    color: black !important;
+   
+}
+
+
+.Select-value {
+    border-color: #BEBEBE !important;
+   
+}
+
+.VirtualizedSelectOption {
+    background-color: #DCDCDC;
+    color: black;
+    font-size:1.4vh;
+ }
+ 
+ .rc-slider-track {
+  background-color: #00bfff;
+}
+
+.rc-slider-dot-active {  
+  border-color: #00bfff;
+  border: solid 2px #00bfff;
+  background-color: #0f2937;
+}
+
+.rc-slider-handle {
+  background-color: #0f2937;
+  border-color: #00bfff;
+}
+
+.rc-slider-handle:hover {
+  border-color: #00bfff;
+}
+
+.rc-slider-handle-active:active {
+  border-color: #00bfff;
+}
+
+.rc-slider-disabled{
+  background-color: #00bfff;
+}
